@@ -79,7 +79,8 @@ Desde la perspectiva del desarrollo técnico, la implementación de una interfaz
 
 En última instancia, el proyecto cumple con creces el objetivo de evidenciar que la tecnología es un puente indispensable para proyectar escenarios de incertidumbre, permitiendo a familias, analistas y comunidades predecir contingencias logísticas, optimizar recursos limitados y tomar decisiones informadas y racionales basadas puramente en datos factibles.
 
-links:   
+Links:
+
 [Página web](https://pablointiquilla-cmd.github.io/Proyecto_Final/)
 
-[Repositorio de git hub](https://pablointiquilla-cmd.github.io/Proyecto_Final/)
+[Repositorio de git hub](https://github.com/pablointiquilla-cmd/Proyecto_Final.git)
