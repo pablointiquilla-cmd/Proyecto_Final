@@ -22,7 +22,7 @@ PROYECTO FINAL/
     ├── escenario-c.html       # Simulador de Costo de Transporte
     ├── escenario-d.html       # Simulador de Compras Familiares
     └── escenario-e.html       # Simulador de Rumores de Escasez y Compras por Pánico
-
+```
 ---
 
 ## 🛠️ Descripción de Módulos y Modelos Matemáticos
