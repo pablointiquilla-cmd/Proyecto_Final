@@ -1,6 +1,6 @@
 # Simulador Web de Crisis: Abastecimiento, Precios y Consumo Familiar
 
-## poryecto por Quilla Apaza Pablo Kevin Inti
+## Proyecto por Quilla Apaza Pablo Kevin Inti
 
 [cite_start]Este proyecto es una aplicación web interactiva y educativa diseñada para representar, calcular y analizar de manera matemática diferentes problemáticas socioeconómicas del contexto actual[cite: 2, 5, 6]. [cite_start]El sistema abstrae variables complejas de la realidad (como desabastecimiento, inflación y variaciones logísticas) y las traduce en modelos predictivos visuales para facilitar la toma de decisiones críticas[cite: 5, 6, 8].
 
