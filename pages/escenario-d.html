@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escenario D: Compras Familiares</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Simulador de Compras Familiares</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Volver al Inicio</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p><strong>Descripción:</strong> Contraste directo entre un presupuesto asignado fijo y el coste real acumulado de compras.</p>
+            <p><strong>Objetivo:</strong> Identificar la viabilidad financiera de adquisición y calcular los déficits o saldos restantes.</p>
+        </section>
+
+        <section id="contexto">
+            <h2>Contexto</h2>
+            <p>Frente a ingresos estáticos familiares, la planificación óptima de compras se vuelve crucial para garantizar que el dinero cubra los insumos de primera necesidad sin generar endeudamiento.</p>
+        </section>
+
+        <section id="simulador">
+            <h2>Simulador</h2>
+            <form id="form-compras">
+                <div class="campo">
+                    <label for="presupuesto">Presupuesto Familiar Disponible (Bs):</label>
+                    <input type="number" id="presupuesto" required min="0" step="0.1">
+                </div>
+                <div class="campo">
+                    <label for="costo-total-compra">Monto Total de la Compra Estimada (Bs):</label>
+                    <input type="number" id="costo-total-compra" required min="0" step="0.1">
+                </div>
+                <div class="botones-form">
+                    <button type="button" id="btn-calcular-d">Verificar Presupuesto</button>
+                    <button type="reset">Limpiar Formulario</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="resultados">
+            <h2>Resultados</h2>
+            <div id="resultado-compras">
+                <p>El sistema le informará si el presupuesto es suficiente, el dinero faltante o el saldo remanente.</p>
+            </div>
+        </section>
+
+        <section id="casos-estudio">
+            <h2>Casos de estudio para probar</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dato</th>
+                        <th>Valor sugerido</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Presupuesto disponible</td>
+                        <td>500 Bs</td>
+                    </tr>
+                    <tr>
+                        <td>Total de compra</td>
+                        <td>580 Bs</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Resultado esperado:</strong> La interfaz debe arrojar explícitamente que el presupuesto no alcanza y calcular el monto exacto faltante.</p>
+        </section>
+
+        <section id="conclusiones">
+            <h2>Conclusiones</h2>
+            <p>Este simulador evidencia la brecha económica que enfrentan muchas familias, donde las listas de compras básicas exceden recurrentemente la liquidez disponible de los hogares.</p>
+        </section>
+    </main>
+
+    <footer>
+        <section id="creditos">
+            <p>Desarrollado por: Pablo Kevin  Inti Quilla Apaza</p>
+        </section>
+    </footer>
+
+</body>
+</html>

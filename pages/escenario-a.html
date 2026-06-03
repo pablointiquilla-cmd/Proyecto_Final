@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escenario A: Abastecimiento de Carburantes</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Simulador de Abastecimiento de Carburantes</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Volver al Inicio</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p><strong>Descripción:</strong> Evaluación del rendimiento de combustible en una estación de servicio ante variaciones de consumo y reabastecimiento.</p>
+            <p><strong>Objetivo:</strong> Determinar los días de autonomía de la reserva antes de alcanzar niveles críticos o el desabastecimiento total.</p>
+        </section>
+
+        <section id="contexto">
+            <h2>Contexto</h2>
+            <p>Debido a los conflictos sociales y problemas de distribución, las estaciones de servicio operan con volúmenes limitados, requiriendo un control estricto sobre el ritmo de consumo diario.</p>
+        </section>
+
+        <section id="simulador">
+            <h2>Simulador</h2>
+            <form id="form-carburantes">
+                <div class="campo">
+                    <label for="cant-inicial">Cantidad Inicial de Carburante (litros):</label>
+                    <input type="number" id="cant-inicial" required min="0">
+                </div>
+                <div class="campo">
+                    <label for="consumo-diario">Consumo Diario Estimado (litros):</label>
+                    <input type="number" id="consumo-diario" required min="0">
+                </div>
+                <div class="campo">
+                    <label for="reabastecimiento">Cantidad de Reabastecimiento Diario (litros):</label>
+                    <input type="number" id="reabastecimiento" required min="0">
+                </div>
+                <div class="campo">
+                    <label for="nivel-critico">Nivel Crítico de Reserva (litros):</label>
+                    <input type="number" id="nivel-critico" required min="0">
+                </div>
+                <div class="botones-form">
+                    <button type="button" id="btn-calcular-a">Calcular Autonomía</button>
+                    <button type="reset">Limpiar Formulario</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="resultados">
+            <h2>Resultados</h2>
+            <div id="resultado-carburantes">
+                <p>Ingrese los datos en el formulario y haga clic en calcular para visualizar los resultados aquí.</p>
+            </div>
+        </section>
+
+        <section id="casos-estudio">
+            <h2>Casos de estudio para probar</h2>
+            <p>Utilice estos datos de prueba predefinidos para validar el funcionamiento del simulador:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dato</th>
+                        <th>Valor sugerido</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Reserva inicial</td>
+                        <td>10000 litros</td>
+                    </tr>
+                    <tr>
+                        <td>Consumo diario</td>
+                        <td>1200 litros</td>
+                    </tr>
+                    <tr>
+                        <td>Reabastecimiento diario</td>
+                        <td>300 litros</td>
+                    </tr>
+                    <tr>
+                        <td>Nivel crítico</td>
+                        <td>2000 litros</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Resultado esperado:</strong> La página debe calcular aproximadamente en cuántos días la reserva llegará al nivel crítico.</p>
+        </section>
+
+        <section id="conclusiones">
+            <h2>Conclusiones</h2>
+            <p>Este modelo matemático permite prever crisis de desabastecimiento, ayudando a las autoridades y administradores a tomar decisiones logísticas anticipadas antes de que las reservas se agoten.</p>
+        </section>
+    </main>
+
+    <footer>
+        <section id="creditos">
+            <p>Desarrollado por: Pablo Kevin  Inti Quilla Apaza</p>
+        </section>
+    </footer>
+
+</body>
+</html>

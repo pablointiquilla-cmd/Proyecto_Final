@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escenario B: Simulador de Precios de Alimentos</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Simulador de Precios de Alimentos</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Volver al Inicio</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p><strong>Descripción:</strong> Monitoreo e incremento de precios en los insumos básicos alimentarios.</p>
+            <p><strong>Objetivo:</strong> Evaluar la diferencia de gasto familiar generada por la inflación mensual.</p>
+        </section>
+
+        <section id="contexto">
+            <h2>Contexto</h2>
+            <p>Los precios de la canasta familiar sufren incrementos debido a factores climáticos, de transporte y especulación, obligando a reajustar la economía interna del hogar.</p>
+        </section>
+
+        <section id="simulador">
+            <h2>Simulador</h2>
+            <form id="form-alimentos">
+                <div class="campo">
+                    <label for="producto">Seleccione o escriba el Producto:</label>
+                    <input type="text" id="producto" required placeholder="Ej. Arroz, Papa, Aceite">
+                </div>
+                <div class="campo">
+                    <label for="precio-inicial">Precio Anterior / Inicial (Bs):</label>
+                    <input type="number" id="precio-inicial" required min="0" step="0.1">
+                </div>
+                <div class="campo">
+                    <label for="precio-actual">Precio Actual (Bs):</label>
+                    <input type="number" id="precio-actual" required min="0" step="0.1">
+                </div>
+                <div class="campo">
+                    <label for="cantidad-semana">Cantidad Consumida por Semana:</label>
+                    <input type="number" id="cantidad-semana" required min="0">
+                </div>
+                <div class="campo">
+                    <label for="semanas">Número de Semanas a Evaluar:</label>
+                    <input type="number" id="semanas" required min="1" value="4">
+                </div>
+                <div class="botones-form">
+                    <button type="button" id="btn-calcular-b">Calcular Impacto</button>
+                    <button type="reset">Limpiar Formulario</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="resultados">
+            <h2>Resultados</h2>
+            <div id="resultado-alimentos">
+                <p>Los cálculos dinámicos de incremento porcentual y gastos adicionales se desplegarán en esta zona.</p>
+            </div>
+        </section>
+
+        <section id="casos-estudio">
+            <h2>Casos de estudio para probar</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio anterior</th>
+                        <th>Precio actual</th>
+                        <th>Cantidad mensual (semanas &times; cant)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Arroz</td>
+                        <td>8 Bs</td>
+                        <td>11 Bs</td>
+                        <td>10 unidades</td>
+                    </tr>
+                    <tr>
+                        <td>Papa</td>
+                        <td>7 Bs</td>
+                        <td>10 Bs</td>
+                        <td>8 unidades</td>
+                    </tr>
+                    <tr>
+                        <td>Aceite</td>
+                        <td>12 Bs</td>
+                        <td>18 Bs</td>
+                        <td>4 unidades</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Resultado esperado:</strong> La página debe calcular el gasto anterior total, el gasto actual y la diferencia en dinero efectivo.</p>
+        </section>
+
+        <section id="conclusiones">
+            <h2>Conclusiones</h2>
+            <p>Visualizar el porcentaje real de aumento nos ayuda a comprender de forma objetiva la pérdida de capacidad de ahorro y la urgencia de buscar alternativas de consumo eficientes.</p>
+        </section>
+    </main>
+
+    <footer>
+        <section id="creditos">
+            <p>Desarrollado por: Pablo Kevin  Inti Quilla Apaza</p>
+        </section>
+    </footer>
+
+</body>
+</html>

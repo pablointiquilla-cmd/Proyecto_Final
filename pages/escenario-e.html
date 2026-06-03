@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escenario E: Rumor de Escasez y Compras por Pánico</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Simulador de Rumor de Escasez</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Volver al Inicio</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p><strong>Descripción:</strong> Simulación de variaciones artificiales en la curva de demanda de productos frente a rumores mediáticos o sociales.</p>
+            <p><strong>Objetivo:</strong> Demostrar cómo el pánico social altera la disponibilidad física de inventario en los mercados comerciales.</p>
+        </section>
+
+        <section id="contexto">
+            <h2>Contexto</h2>
+            <p>Los rumores infundados o la incertidumbre social a menudo provocan que los ciudadanos acudan masivamente a adquirir más productos de lo habitual, generando una escasez inducida o artificial.</p>
+        </section>
+
+        <section id="simulador">
+            <h2>Simulador</h2>
+            <form id="form-escasez">
+                <div class="campo">
+                    <label for="demanda-normal">Demanda Normal Habitual (unidades):</label>
+                    <input type="number" id="demanda-normal" required min="0">
+                </div>
+                <div class="campo">
+                    <label for="porcentaje-rumor">Porcentaje de Incremento por Rumor (%):</label>
+                    <input type="number" id="porcentaje-rumor" required min="0" placeholder="Ej. 40">
+                </div>
+                <div class="campo">
+                    <label for="stock-disponible">Stock / Inventario Disponible (unidades):</label>
+                    <input type="number" id="stock-disponible" required min="0">
+                </div>
+                <div class="botones-form">
+                    <button type="button" id="btn-calcular-e">Simular Demanda</button>
+                    <button type="reset">Limpiar Formulario</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="resultados">
+            <h2>Resultados</h2>
+            <div id="resultado-escasez">
+                <p>Haga clic en simular para comprobar el estado crítico o estable del inventario.</p>
+            </div>
+        </section>
+
+        <section id="casos-estudio">
+            <h2>Casos de estudio para probar</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dato</th>
+                        <th>Valor sugerido</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Demanda normal</td>
+                        <td>100 unidades</td>
+                    </tr>
+                    <tr>
+                        <td>Aumento por rumor</td>
+                        <td>40%</td>
+                    </tr>
+                    <tr>
+                        <td>Stock disponible</td>
+                        <td>120 unidades</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Resultado esperado:</strong> El sistema debe calcular la nueva demanda ampliada por pánico e indicar explícitamente si las existencias en almacén logran abastecerla o colapsan.</p>
+        </section>
+
+        <section id="conclusiones">
+            <h2>Conclusiones</h2>
+            <p>El comportamiento psicológico colectivo juega un rol masivo en la economía. Las compras irracionales por miedo suelen provocar el desabastecimiento inmediato que inicialmente se quería evitar.</p>
+        </section>
+    </main>
+
+    <footer>
+        <section id="creditos">
+            <p>Desarrollado por: Pablo Kevin  Inti Quilla Apaza</p>
+        </section>
+    </footer>
+
+</body>
+</html>

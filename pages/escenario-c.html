@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escenario C: Costo de Transporte</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Simulador de Costo de Transporte</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Volver al Inicio</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p><strong>Descripción:</strong> Cálculo de variaciones en los costos operativos o de traslado individual por el uso de rutas alternativas.</p>
+            <p><strong>Objetivo:</strong> Estimar el impacto económico monetario de los bloqueos y desvíos viales obligatorios.</p>
+        </section>
+
+        <section id="contexto">
+            <h2>Contexto</h2>
+            <p>Cuando ocurren bloqueos de carreteras o calles principales, el transporte público y privado se ve forzado a tomar rutas de desvío de mayor kilometraje, incrementando los costos operativos de traslado de forma sustancial.</p>
+        </section>
+
+        <section id="simulador">
+            <h2>Simulador</h2>
+            <form id="form-transporte">
+                <div class="campo">
+                    <label for="distancia-normal">Distancia Ruta Normal (km):</label>
+                    <input type="number" id="distancia-normal" required min="0" step="0.1">
+                </div>
+                <div class="campo">
+                    <label for="distancia-desvio">Distancia con Desvío (km):</label>
+                    <input type="number" id="distancia-desvio" required min="0" step="0.1">
+                </div>
+                <div class="campo">
+                    <label for="costo-km">Costo Operativo por Kilómetro (Bs):</label>
+                    <input type="number" id="costo-km" required min="0" step="0.1">
+                </div>
+                <div class="campo">
+                    <label for="viajes-semana">Número de Viajes por Semana:</label>
+                    <input type="number" id="viajes-semana" required min="0">
+                </div>
+                <div class="botones-form">
+                    <button type="button" id="btn-calcular-c">Calcular Costos</button>
+                    <button type="reset">Limpiar Formulario</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="resultados">
+            <h2>Resultados</h2>
+            <div id="resultado-transporte">
+                <p>Aquí se reflejará la comparativa de costos entre la ruta normal y la ruta con desvíos.</p>
+            </div>
+        </section>
+
+        <section id="casos-estudio">
+            <h2>Casos de estudio para probar</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dato</th>
+                        <th>Valor sugerido</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Distancia normal</td>
+                        <td>10 km</td>
+                    </tr>
+                    <tr>
+                        <td>Distancia con desvío</td>
+                        <td>16 km</td>
+                    </tr>
+                    <tr>
+                        <td>Costo por km</td>
+                        <td>2 Bs</td>
+                    </tr>
+                    <tr>
+                        <td>Viajes por semana</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Resultado esperado:</strong> La página debe calcular con precisión el gasto adicional semanal provocado enteramente por el desvío.</p>
+        </section>
+
+        <section id="conclusiones">
+            <h2>Conclusiones</h2>
+            <p>Los bloqueos no solo restringen el movimiento libre, sino que generan un impuesto económico invisible reflejado en el consumo extra de combustible y desgaste de unidades de transporte.</p>
+        </section>
+    </main>
+
+    <footer>
+        <section id="creditos">
+            <p>Desarrollado por: Pablo Kevin  Inti Quilla Apaza</p>
+        </section>
+    </footer>
+
+</body>
+</html>
