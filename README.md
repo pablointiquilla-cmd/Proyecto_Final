@@ -1,10 +1,14 @@
 # Simulador Web de Crisis: Abastecimiento, Precios y Consumo Familiar
 
-Nombre completo: Quilla Apaza P ablo Kevin Inti
-Materia: Programación Web I
-Título del proyecto:Simulador Web de Crisis: Abastecimiento, Precios y Consumo Familiar
-Enlace de la página web: [https://pablointiquilla-cmd.github.io/Proyecto_Final/](https://pablointiquilla-cmd.github.io/Proyecto_Final/)
-Enlace del repositorio Git:[https://github.com/pablointiquilla-cmd/Proyecto_Final.git](https://github.com/pablointiquilla-cmd/Proyecto_Final.git)
+### Nombre completo: Quilla Apaza P ablo Kevin Inti
+
+### Materia: Programación Web I
+
+### Título del proyecto:Simulador Web de Crisis: Abastecimiento, Precios y Consumo Familiar
+
+### Enlace de la página web: [https://pablointiquilla-cmd.github.io/Proyecto_Final/](https://pablointiquilla-cmd.github.io/Proyecto_Final/)
+
+### Enlace del repositorio Git:[https://github.com/pablointiquilla-cmd/Proyecto_Final.git](https://github.com/pablointiquilla-cmd/Proyecto_Final.git)
 
 Este proyecto es una aplicación web interactiva y educativa diseñada para representar, calcular y analizar de manera matemática diferentes problemáticas socioeconómicas del contexto actual.
 
