@@ -10,6 +10,8 @@
 
 ### Enlace del repositorio Git:[https://github.com/pablointiquilla-cmd/Proyecto_Final.git](https://github.com/pablointiquilla-cmd/Proyecto_Final.git)
 
+---
+
 Este proyecto es una aplicación web interactiva y educativa diseñada para representar, calcular y analizar de manera matemática diferentes problemáticas socioeconómicas del contexto actual.
 
 El sistema abstrae variables complejas de la realidad (como desabastecimiento, inflación y variaciones logísticas) y las traduce en modelos predictivos visuales para facilitar la toma de decisiones críticas
