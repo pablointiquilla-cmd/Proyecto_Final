@@ -1,6 +1,6 @@
 # Simulador Web de Crisis: Abastecimiento, Precios y Consumo Familiar
 
-### Nombre completo: Quilla Apaza P ablo Kevin Inti
+### Nombre completo: Quilla Apaza Pablo Kevin Inti
 
 ### Materia: Programación Web I
 
